@@ -1,0 +1,11 @@
+NumPy - numerical python 
+
+- used for numerical computing 
+
+- how is numpy better than lists
+  - numpy uses contiguous block of memory  which improves cache efficiency and access speed but lists consists of pointers 
+    which increase more memory fragmentation and slower access.
+  - numpy supports homogeneous data types leading to more efficient memory use but list can contain heterogeneous data types which results in higher memory overhead.
+  - numpy uses vector operations that leverage SIMD(single instruction multiple data) for parellel processing but lists rely on loop based operations which are slower due to overhead of python's interpreted nature
+  - numpy is written in c and optimized for performance but lists are executed as python byte code.
+   
